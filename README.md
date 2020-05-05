@@ -1,12 +1,7 @@
 
-# Pytorch Implementation of Piexl-leve Domain Transfer
+# Pytorch Implementation of Pixel-level Domain Transfer
 
 reference: [Pixel-Level Domain Transfer](https://arxiv.org/pdf/1603.07442.pdf)
-
-## Note (IMPORTANT):
-+ This code is not complete, the training fails yet.
-+ I figure the bug is very trivial, and will be fixed as soon as I got time.
-+ Welcome pull requests!!
 
 ## Prerequisites
 + virtualenv
@@ -15,7 +10,6 @@ reference: [Pixel-Level Domain Transfer](https://arxiv.org/pdf/1603.07442.pdf)
 ## Prepare Dataset
 + Download LOOKBOOK dataset: [Link](https://drive.google.com/file/d/0By_p0y157GxQU1dCRUU4SFNqaTQ/view?usp=sharing)
 + run `sh setup.sh`
-
 
 ## Training 
 ~~~
@@ -28,7 +22,6 @@ python main.py \
   --load_size 64 \
   --lr 0.0002
 ~~~
-
 
 ## Visualization
 ~~~
@@ -44,17 +37,5 @@ Any pull requests, or bug report is welcome.  :-)
 ![image3](https://user-images.githubusercontent.com/17468992/41200411-03075cae-6cdf-11e8-8a10-e14fdda91cc3.png)
 
 
-## Author
+## Forked from
 MinchulShin / [@nashory](https://github.com/nashory)  
-__Any bug reports or questions are welcome. (min.stellastra[at]gmail.com)  :-)__
-
-
-
-
-
-
-
-
-
-
-
